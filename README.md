@@ -6,7 +6,7 @@
 
 ## Description 
 
-Navak is a react application for the organization, Navak Academy, which is a program that teaches young women from underserved backgrounds, coding skills. 
+Navak is a react application for the organization, Navak Academy, which is a program that teaches coding skills to young women from underserved backgrounds.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Navak is a react application for the organization, Navak Academy, which is a pro
 * [Technologies](#technologies)
 <!-- * [Application](#Application) -->
 * [Demonstration](#demonstration)
-* [Instructions](#instructions)
+<!-- * [Instructions](#instructions) -->
 <!-- * [Acknowledgements](#acknowledgements) -->
 <!-- * [Questions](#questions) -->
 
@@ -47,7 +47,7 @@ Navak is a react application for the organization, Navak Academy, which is a pro
 ![Application Demo](./public/assets/video.gif) -->
 
 
-## Installation
+<!-- ## Installation
 
 The following installations are needed for this package:
 1. npm init 
@@ -60,7 +60,7 @@ Deployment Instructions
 1. git add .
 2. git commit -m "a commit message"
 3. git push heroku master
-4. heroku open
+4. heroku open -->
 
 
 ## Team Members
