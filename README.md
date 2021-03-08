@@ -12,7 +12,6 @@ Navak is a react application for the organization, Navak Academy, which is a pro
 
 * [Description](#Description)
 * [Technologies](#technologies)
-<!-- * [Application](#Application) -->
 * [Demonstration](#demonstration)
 <!-- * [Instructions](#instructions) -->
 <!-- * [Acknowledgements](#acknowledgements) -->
