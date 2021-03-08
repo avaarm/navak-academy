@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# [Navak Academy]()
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![GitHub License](https://img.shields.io/badge/License-orange.svg)](Develop/License/MIT.md)
+<!-- [![GitHub Test](https://img.shields.io/badge/Test-blue.svg)](#test) -->
+<!-- can put technologies here as shield icons and their versions -->
 
-## Available Scripts
+## Description 
 
-In the project directory, you can run:
+Navak is a react application for the organization, Navak Academy, which is a program that teaches young women from underserved backgrounds, coding skills. 
 
-### `yarn start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [Description](#Description)
+* [Technologies](#technologies)
+<!-- * [Application](#Application) -->
+* [Demonstration](#demonstration)
+* [Instructions](#instructions)
+<!-- * [Acknowledgements](#acknowledgements) -->
+<!-- * [Questions](#questions) -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies
 
-### `yarn test`
+* JavaScript
+<!-- * Bootstrap
+* [Web app manifests](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json)
+* [Service Worker](https://developers.google.com/web/fundamentals/primers/service-workers)
+* [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) -->
+* Node.js
+* npm
+* HTML
+* CSS
+<!-- * [MongoDB](https://docs.mongodb.com/)
+* [Mongoose](https://mongoosejs.com/) -->
+* Heroku
+* Express 
+* UI Kit
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- ## Application  -->
 
-### `yarn build`
+<!-- ![Finished Product](./finishedApp.png) -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- ### About Us -->
+<!-- ![Application Gif](https://media.giphy.com/media/S98UevhF3irXh5Hadv/giphy.gif) -->
+<!-- 
+### About Us
+![Application Demo](./public/assets/video.gif) -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The following installations are needed for this package:
+1. npm init 
+2. npm i  
+3. npm install node
+    
+Once in the correct directory (server.js), run "npm start"
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Deployment Instructions
+1. git add .
+2. git commit -m "a commit message"
+3. git push heroku master
+4. heroku open
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Team Members
+* Grant Smith
+* Julie Ritz
+* Jared Hennessy 
+* Armenuhi Avanesyan
+* Amalya Harutunyan 
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
