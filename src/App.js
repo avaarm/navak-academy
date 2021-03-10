@@ -1,3 +1,10 @@
+import React from "react";
+// can use HashRouter if browser router doesn't work 
+import Navbar from ".components/Navbar"
+import {BroswerRouter as Router, Route}
+
+
+
 import logo from './logo.svg';
 import './App.css';
 
