@@ -28,11 +28,9 @@ Navak is a react application for the organization, Navak Academy, which is a pro
 * npm
 * HTML
 * CSS
-<!-- * [MongoDB](https://docs.mongodb.com/)
-* [Mongoose](https://mongoosejs.com/) -->
 * Heroku
 * Express 
-* UI Kit
+* UIKit
 
 <!-- ## Application  -->
 
