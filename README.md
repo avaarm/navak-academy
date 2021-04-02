@@ -66,4 +66,5 @@ Deployment Instructions
 * Jared Hennessy 
 * Armenuhi Avanesyan
 * Amalya Harutunyan 
+* Gyulnara Grigoryan
 
