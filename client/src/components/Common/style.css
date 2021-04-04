@@ -1,0 +1,12 @@
+.common-button {
+    background-color: #FFC727;
+    color: #171718;
+    border: none;
+    border-radius: 100px 100px 100px 100px;
+}
+
+.common-button:hover {
+    background-color: #FFC727;
+    color: #171718;
+}
+
