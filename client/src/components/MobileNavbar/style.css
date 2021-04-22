@@ -7,14 +7,20 @@
 }
 
 .menu-icon {
-    color: green;
+    color: #0084B2;
     padding: 10px;
 }
 
-.mobile-nav-item {
+.mobile-nav-item{
     font-size: 12px;
     padding-left: 10px;
     font-weight: 100;
-    color: black !important;
+    color: #0084B2 !important;
     text-transform: uppercase;
 }
+
+.uk-offcanvas-bar {
+    background-color: #0084B2 !important;
+}
+
+
