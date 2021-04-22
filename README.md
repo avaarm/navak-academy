@@ -64,6 +64,7 @@ Deployment Instructions
 * Grant Smith
 * Julie Ritz
 * Jared Hennessy 
-* Armenuhi Avanesyan
+* Emma
 * Amalya Harutunyan 
+* Gyulnara Grigoryan
 
