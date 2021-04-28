@@ -1,7 +1,7 @@
 import React from "react";
 // can use HashRouter if browser router doesn't work 
 import MainPage from "./pages/MainPage";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import MobileNav from "./components/MobileNavbar"
 
 function App() {

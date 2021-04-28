@@ -3,7 +3,9 @@ import "./style.css";
 
 const NavakLogo = (
   <span className="logo"> <div>
-    <a href="/"><img src="navak.png" height="33" width="120" alt="text here"/></a>
+    <a href="/">
+      {/* <div><img src="navak.png" height="33" width="120" alt="text here"/></div> */}
+      </a>
   </div></span>
 );
 
@@ -12,10 +14,11 @@ function Navbar() {
     <nav className="uk-navbar-container uk-margin uk-navbar" >
       <div className="uk-navbar-right">
         <ul className="uk-navbar-nav">
-          <a href=" /">
-          <img alt="idk">
+          {/* <a href=" /">
+          <div>  <img alt="idk">
            {NavakLogo}
-          </img></a>
+          </img></div>
+        </a> */}
           <li className="uk-active">
             <a href=" ">Home</a>
           </li>

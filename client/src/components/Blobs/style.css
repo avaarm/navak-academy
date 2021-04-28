@@ -1,0 +1,5 @@
+/* Blob styling */
+
+body, html { margin: 0; }
+
+canvas { position: fixed; touch-action: none; }
