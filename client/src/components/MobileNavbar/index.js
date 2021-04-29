@@ -18,22 +18,22 @@ function MobileNav() {
         </a>
         <ul className="uk-list">
           <li className="nav-item mobile-nav-item">
-            <a href="">Home</a>
+            <a href=" ">Home</a>
           </li>
           <li className="nav-item mobile-nav-item">
-            <a href="">About Us</a>
+            <a href=" ">About Us</a>
           </li>
           <li className="nav-item mobile-nav-item">
-            <a href="">Our Vision</a>
+            <a href=" ">Our Vision</a>
           </li>
           <li className="nav-item mobile-nav-item">
-            <a href="">Join Us</a>
+            <a href=" ">Join Us</a>
           </li>
           <li className="nav-item mobile-nav-item">
-            <a href="">Apply</a>
+            <a href=" ">Apply</a>
           </li>
           <li className="nav-item mobile-nav-item">
-            <a href="">Contact</a>
+            <a href=" ">Contact</a>
           </li>
           <button className="uk-button uk-button-default">Sign Up</button>
         </ul>

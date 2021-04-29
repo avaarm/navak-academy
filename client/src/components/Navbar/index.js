@@ -1,27 +1,55 @@
 import React from "react";
-import "./style.css"
+import "./style.css";
 
+const NavakLogo = (
+  <span className="logo"> <div>
+    <a href="/">
+      {/* <div><img src="navak.png" height="33" width="120" alt="text here"/></div> */}
+      </a>
+  </div></span>
+);
 
 function Navbar() {
-return(
-<nav className="uk-navbar-container uk-margin uk-navbar">
-    <div className="uk-navbar-left">
-        <a className="uk-navbar-item uk-logo" href="../../../public/js/navak.ico">Navak Academy</a>
+  return (
+    <nav className="uk-navbar-container uk-margin uk-navbar" >
+      <div className="uk-navbar-right">
         <ul className="uk-navbar-nav">
-            <li className="uk-active"><a href="">Home</a></li>
-            <li className="uk-parent"><a href="">About Us</a></li>
-            <li className="uk-parent"><a href="">Our Vision</a></li>
-            <li className="uk-parent"><a href="">Join Us</a></li>
-            <li className="uk-parent"><a href="">Apply</a></li>
-            <li className="uk-parent"><a href="">Contact</a></li>
-            <button className="uk-button uk-button-default">Sign Up</button>
-            <a className="uk-hidden@m" href="#menu-canvas" uk-toggle="target: #menu-canvas"><span className="menu-icon"
-                        uk-icon="icon: menu; ratio: 1.5"></span></a>
+          {/* <a href=" /">
+          <div>  <img alt="idk">
+           {NavakLogo}
+          </img></div>
+        </a> */}
+          <li className="uk-active">
+            <a href=" ">Home</a>
+          </li>
+          <li className="uk-parent">
+            <a href=" ">About Us</a>
+          </li>
+          <li className="uk-parent">
+            <a href=" ">Our Vision</a>
+          </li>
+          <li className="uk-parent">
+            <a href=" ">Join Us</a>
+          </li>
+          <li className="uk-parent">
+            <a href=" ">Apply</a>
+          </li>
+          <li className="uk-parent">
+            <a href=" ">Contact</a>
+          </li>
+          <button className="uk-button uk-button-default">Sign Up</button>
+          <a
+            className="uk-hidden@m"
+            href="#menu-canvas"
+            uk-toggle="target: #menu-canvas"
+          >
+            <span className="menu-icon" uk-icon="icon: menu; ratio: 1.5"></span>
+          </a>
         </ul>
-    </div>
-</nav>
-
-)}
+      </div>
+    </nav>
+  );
+}
 
 //export default is part of the ES6 module system
 //A module is a self contained unit that can expose assets to other modules using export, and acquire assets from other modules using import.

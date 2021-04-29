@@ -1,13 +1,29 @@
+nav{
+    font-family: Poppins, sans-serif;
+}
+
+span {
+    float: left !important;
+    margin-top: 20px !important;
+    size: 20px;
+}
 .nav-item {
     font-weight: 100;
 }
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: white;
+}
 
-.navbar {
-    background-color: transparent;
+.uk-navbar-container {
+    background-color: white;
+}
+
+.uk-navbar-item.uk-logo {
+    align-items: left !important;
 }
 
 .nav-item:hover, .menu-icon:hover {
-    color: #ff6060 !important;
+    color: #0084B2 !important;
 }
 
 .menu-icon {
