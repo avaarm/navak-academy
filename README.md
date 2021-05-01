@@ -12,7 +12,7 @@ Navak is a react application for the organization, Navak Academy, which is a pro
 
 * [Description](#description)
 * [Technologies](#technologies)
-* [Demonstration](#demonstration)
+* [Demonstration](#demonstration) - coming soon! :) 
 * [Team Members](#team)
 
 

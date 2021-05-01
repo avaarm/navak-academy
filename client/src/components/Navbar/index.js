@@ -1,54 +1,49 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./style.css";
+import { Link, img } from "react-router-dom";
+// import AccountDropdown from "./AccountDropdown"
+import navak from "./navak.png";
 
-const NavakLogo = (
-  <span className="logo"> <div>
-    <a href="/">
-      {/* <div><img src="navak.png" height="33" width="120" alt="text here"/></div> */}
-      </a>
-  </div></span>
-);
 
-function Navbar() {
+
+const style = {
+  navbar: {
+      backgroundColor: "transparent"
+  },
+};
+
+function Navbar(props) {
   return (
-    <nav className="uk-navbar-container uk-margin uk-navbar" >
-      <div className="uk-navbar-right">
-        <ul className="uk-navbar-nav">
-          {/* <a href=" /">
-          <div>  <img alt="idk">
-           {NavakLogo}
-          </img></div>
-        </a> */}
-          <li className="uk-active">
-            <a href=" ">Home</a>
-          </li>
-          <li className="uk-parent">
-            <a href=" ">About Us</a>
-          </li>
-          <li className="uk-parent">
-            <a href=" ">Our Vision</a>
-          </li>
-          <li className="uk-parent">
-            <a href=" ">Join Us</a>
-          </li>
-          <li className="uk-parent">
-            <a href=" ">Apply</a>
-          </li>
-          <li className="uk-parent">
-            <a href=" ">Contact</a>
-          </li>
-          <button className="uk-button uk-button-default">Sign Up</button>
-          <a
-            className="uk-hidden@m"
-            href="#menu-canvas"
-            uk-toggle="target: #menu-canvas"
-          >
-            <span className="menu-icon" uk-icon="icon: menu; ratio: 1.5"></span>
-          </a>
-        </ul>
-      </div>
-    </nav>
-  );
+    <div>
+        <nav className="uk-navbar-container uk-navbar navbar" style={style.navbar}>
+      <li><Link to="/" className="nav-item" style={{ color: props.color }}><img src={navak} width="100" height="100" alt=" logo"></img></Link></li>
+ <div className="uk-navbar-right">
+                <ul className="uk-navbar-nav uk-visible@m">
+                    <li><Link to="/" className="nav-item" style={{ color: props.color }}>Home</Link></li>
+                    <li><Link to="/" className="nav-item" style={{ color: props.color }}>About Us </Link></li>
+                    <li><Link to="/" className="nav-item" style={{ color: props.color }}>Our Vision</Link></li>
+                    <li><Link to="/" className="nav-item" style={{ color: props.color }}>Apply </Link></li>
+                    <li><Link to="/" className="nav-item" style={{ color: props.color }}>Join Us</Link></li>
+                    <li><Link to="/" className="nav-item" style={{ color: props.color }}>Contact</Link></li>
+                </ul>
+                <a className="uk-hidden@m" href="#menu-canvas" uk-toggle="target: #menu-canvas"><span className="menu-icon"
+                    uk-icon="icon: menu; ratio: 1.5"></span></a>
+            </div>
+            {
+                props.accountBtn !== "none" ? (
+                    <div className="uk-navbar-right uk-visible@m">
+                        <button className="uk-button uk-button-default my-account-btn nav-item" type="button" style={{ color: props.color }}>My Account<span className="user-icon" uk-icon="chevron-down"></span></button>
+                        {/* <AccountDropdown /> */}
+                    </div>
+                ) : (
+                        ""
+                    )
+            }
+        </nav>
+    </div>
+)
 }
 
 //export default is part of the ES6 module system
