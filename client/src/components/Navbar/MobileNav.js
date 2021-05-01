@@ -17,9 +17,9 @@ function MobileNavbar() {
           Navak Academy
         </a>
         <ul className="uk-list">
-          <li className="nav-item mobile-nav-item">
+          {/* <li className="nav-item mobile-nav-item">
             <a href=" ">Home</a>
-          </li>
+          </li> */}
           <li className="nav-item mobile-nav-item">
             <a href=" ">About Us</a>
           </li>

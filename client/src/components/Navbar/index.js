@@ -18,10 +18,10 @@ function Navbar(props) {
   return (
     <div>
         <nav className="uk-navbar-container uk-navbar navbar" style={style.navbar}>
-      <li><Link to="/" className="nav-item" style={{ color: props.color }}><img src={navak} width="100" height="100" alt=" logo"></img></Link></li>
+      <Link to="/" className="nav-item" style={{ color: props.color }}><img src={navak} width="100" height="100" alt=" logo"></img></Link>
  <div className="uk-navbar-right">
                 <ul className="uk-navbar-nav uk-visible@m">
-                    <li><Link to="/" className="nav-item" style={{ color: props.color }}>Home</Link></li>
+                    {/* <li><Link to="/" className="nav-item" style={{ color: props.color }}>Home</Link></li> */}
                     <li><Link to="/" className="nav-item" style={{ color: props.color }}>About Us </Link></li>
                     <li><Link to="/" className="nav-item" style={{ color: props.color }}>Our Vision</Link></li>
                     <li><Link to="/" className="nav-item" style={{ color: props.color }}>Apply </Link></li>
