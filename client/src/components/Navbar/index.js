@@ -5,6 +5,8 @@ import "./style.css";
 import { Link, img } from "react-router-dom";
 // import AccountDropdown from "./AccountDropdown"
 import navak from "./navak.png";
+import Translation from "../TranslationButton";
+
 
 const style = {
   navbar: {
@@ -19,7 +21,7 @@ function Navbar(props) {
         className="uk-navbar-container uk-navbar navbar"
         style={style.navbar}
       >
-        <Link to="/" className="nav-item" style={{ color: props.color }}>
+        <Link to="/" className="nav-item logo" style={{ color: props.color }}>
           <img src={navak} width="100" height="100" alt=" logo"></img>
         </Link>
         <div className="uk-navbar-right">
@@ -56,9 +58,7 @@ function Navbar(props) {
               </Link>
             </li>
             <li>
-              <Link to="/" className="nav-item" style={{ color: props.color }}>
-                Eng/Arm
-              </Link>
+
             </li>
           </ul>
           <a
@@ -68,6 +68,7 @@ function Navbar(props) {
           >
             <span className="menu-icon" uk-icon="icon: menu; ratio: 1.5"></span>
           </a>
+          <Translation/>
         </div>
         {
           // props.accountBtn !== "none" ? (
