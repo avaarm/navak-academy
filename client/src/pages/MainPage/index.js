@@ -8,7 +8,7 @@ function MainPage(){
     return (
         <div>
             <NavBar/>
-            <InfoCard/>
+            {/* <InfoCard/> */}
             <Blobs/>
             <Footer />
         </div>

@@ -1,3 +1,4 @@
+/* eslint-disable new-parens */
 import React from "react";
 import "./style.css";
 
@@ -114,6 +115,7 @@ class Blob {
       this._radius = value;
     }
   }
+  // changing of size - AA 
   get radius() {
     return this._radius || 150;
   }
@@ -123,8 +125,10 @@ class Blob {
       this._position = value;
     }
   }
+
+  // change the location or the position of blob- AA
   get position() {
-    return this._position || { x: 0.5, y: 0.5 };
+    return this._position || { x: 0.1, y: 0.5 };
   }
   
   get divisional() {

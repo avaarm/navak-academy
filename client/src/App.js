@@ -1,19 +1,22 @@
 import React from "react";
 // can use HashRouter if browser router doesn't work 
 import MainPage from "./pages/MainPage";
-import { HashRouter as Router, Route } from "react-router-dom";
-import MobileNav from "./components/MobileNavbar"
+import "./index.css"
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import MobileNav from "./components/Navbar/MobileNav"
 
 function App() {
   return (
 
       < Router >
+      <Switch>
           <Route exact path="/" component={MainPage} />
           {/* <Route exact path="/" component={AboutUs} />
           <Route exact path="/" component={MainPage} />
           <Route exact path="/" component={MainPage} />
           <Route exact path="/" component={MainPage} />
           <Route exact path="/" component={MainPage} /> */}
+        </Switch>
         <MobileNav/>
       </Router >
       
