@@ -1,5 +1,6 @@
 import React from "react";
 import "./mobilestyle.css";
+import Translation from "../TranslationButton"
 
 function MobileNavbar() {
   return (
@@ -35,7 +36,8 @@ function MobileNavbar() {
           <li className="nav-item mobile-nav-item">
             <a href=" ">Contact</a>
           </li>
-          <button className="uk-button uk-button-default">Sign Up</button>
+          <Translation/>
+
         </ul>
       </div>
     </div>
