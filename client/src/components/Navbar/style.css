@@ -22,7 +22,10 @@ img {
     margin-left: 40%;
 
 }
+.uk-navbar-center:only-child, .uk-navbar-left, .uk-navbar-right {
 
+    margin-left: 30%;
+}
 .nav-item:hover {
   color: #0084b2 !important;
 }
