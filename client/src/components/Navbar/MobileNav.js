@@ -22,13 +22,13 @@ function MobileNavbar() {
             <a href=" ">Home</a>
           </li> */}
           <li className="nav-item mobile-nav-item">
-            <a href=" ">About Us</a>
+            <a href=" ">About</a>
           </li>
           <li className="nav-item mobile-nav-item">
-            <a href=" ">Our Vision</a>
+            <a href=" ">Vision</a>
           </li>
           <li className="nav-item mobile-nav-item">
-            <a href=" ">Join Us</a>
+            <a href=" ">Join</a>
           </li>
           <li className="nav-item mobile-nav-item">
             <a href=" ">Apply</a>

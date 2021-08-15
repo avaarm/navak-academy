@@ -36,12 +36,12 @@ function Navbar(props) {
             </li>
             <li>
               <Link to="/" className="nav-item" style={{ color: props.color }}>
-                About Us{" "}
+                About{" "}
               </Link>
             </li>
             <li>
               <Link to="/" className="nav-item" style={{ color: props.color }}>
-                Our Vision
+                Vision
               </Link>
             </li>
             <li>
@@ -51,7 +51,7 @@ function Navbar(props) {
             </li>
             <li>
               <Link to="/" className="nav-item" style={{ color: props.color }}>
-                Join Us
+                Join
               </Link>
             </li>
             <li>
