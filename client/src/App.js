@@ -18,17 +18,12 @@ function App() {
       < Router >
       <Switch>
           <Route exact path="/" component={MainPage} />
-          <BlueBackground1/>
-          <BlueBackground2/>
-          <BlueBackground3/>
-          <BlueBackground4/>
-          <BlueBackground5/>
+          <Route exact path="/Section1" component={BlueBackground1} />
+          <Route exact path="/Section2" component={BlueBackground2} />
+          <Route exact path="/Section3" component={BlueBackground3} />
+          <Route exact path="/Section4" component={BlueBackground4} />
+          <Route exact path="/Section5" component={BlueBackground5} /> 
           <Footer/>
-          {/* <Route exact path="/" component={AboutUs} />
-          <Route exact path="/" component={MainPage} />
-          <Route exact path="/" component={MainPage} />
-          <Route exact path="/" component={MainPage} />
-          <Route exact path="/" component={MainPage} /> */}
         </Switch>
         <MobileNav/>
   
