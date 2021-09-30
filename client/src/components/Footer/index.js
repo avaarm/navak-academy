@@ -1,24 +1,31 @@
 import React from "react";
-import "./style.css";
+import "./style/style.css";
 
 function Footer() {
-    return (
+  return (
+    <div class="FooterSection">
+      <div uk-container-first uk-container-xlarge container>
         <footer className="uk-text-center uk-text-middle footer">
-        <span>
-            ©
+          <hr className="uk-divider-icon uk-text-center "></hr>
+          <span>
             <a className="contributor" href="# " target="blank"></a>
-            <a className="contributor" href="#" target="blank"></a>
-            <a className="contributor" href="#" target="blank"></a>
-            <a className="contributor" href="#" target="blank"></a>
-        </span>
-        <div>
-            <a className="view-repo" href=" ">
-                View project repository
-                <span uk-icon="icon: github" className="contact-icon contact-link-icon" target="_blank"></span>
+          </span>
+          <div>
+            <a className="view-repo uk-text-center" href="/">
+              Navak Academy
+              <span
+                uk-icon="icon: github"
+                className="contact-icon contact-link-icon"
+                target="_blank"
+              >
+                {" "}
+              </span>
             </a>
-        </div>
-    </footer>
-    );
+          </div>
+        </footer>
+      </div>
+    </div>
+  );
 }
 
 export default Footer;
