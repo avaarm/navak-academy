@@ -1,0 +1,159 @@
+.section4{
+    /* Background color */
+    margin: 0px 0px 0px 0px;
+    /* border-bottom-left-radius: 50% 40%; */
+        /* Curved corners */
+    border-bottom-right-radius: 30% 20%;
+    background: 
+    url(Ellipse-3-copy-7.png) left center no-repeat, 
+    url(Vector-circle.png) left bottom no-repeat, 
+    url(Vector-circle.png) left center no-repeat,  
+    #27AAE1;
+    background-size: 600px, 400px,600px;
+}
+
+.uk-container-xlarge {
+    max-width: 2500px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .uk-container-first{
+        /* Background color */
+        margin: 0px 0px 0px 0px;
+        /* border-bottom-left-radius: 50% 40%; */
+            /* Curved corners */
+        border-bottom-right-radius: 30% 20%;
+        background: 
+        url(Ellipse-3-copy-7.png) left bottom no-repeat, 
+        url(Ellipse-3-copy-7.png) left bottom no-repeat, 
+        url(Vector-circle.png) left bottom no-repeat, 
+        url(Mask.png) right bottom no-repeat,
+        url(Rectangle.png) right bottom no-repeat,
+        url(Vector.png) right center no-repeat, 
+        #27AAE1;
+        background-size: 400px,300px, 600px, auto, auto, auto;
+    }
+}
+
+.common-button {
+    background-color: #ffc727;
+    color: #171718;
+    border: none;
+    border-radius: 100px 100px 100px 100px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+  }
+  
+  .info-card uk-card uk-card-default uk-card-body {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .info-card {
+    margin: 0px !important;
+    animation: bounceInLeft;
+    animation-duration: 2s;
+  }
+  /* .uk-card-body{
+      margin: 0px;
+      animation: bounceInLeft ;
+      animation-duration: 2s;
+  }  */
+  #section-container {
+    border-color: 1px solid rgb(61, 60, 60);
+    padding: 7%;
+    border-radius: 5px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+  }
+  
+  .common-button:hover {
+    background-color: #ffc727 !important;
+    color: #25234d;
+  }
+  
+  .info-card-section {
+    color: #6422db;
+  }
+  h1 {
+    color: #25234d;
+    font-weight: bold;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+  }
+  p {
+    color: #0b132a;
+  }
+  
+  @media (max-width: 520px) {
+    body::before {
+      display: block;
+      margin: 1em;
+      font-weight: bold;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    #section-container {
+      margin-top: 50px;
+      width: 60%;
+      /* padding-left: 30%; */
+      padding-top: 50px;
+    }
+   
+  }
+  
+  @media only screen and (min-width: 540px) {
+    #section-container {
+      margin-top: 50px;
+      width: 60%;
+      /* padding-left: 30%; */
+      padding-top: 50px;
+    }
+  }
+  @media only screen and (min-width: 300px) {
+    #section-container {
+      margin-top: 50px;
+      width: 60%;
+      /* padding-left: 30%; */
+      padding-top: 50px;
+    }
+    .uk-container > :last-child {
+      margin-top: 50px;
+      width: 60%;
+      margin-right: 100px;
+      /* padding-left: 30%; */
+      padding-top: 50px;
+      font-size: small;
+    }
+  }
+  @media only screen and (min-width: 300px) {
+    .uk-container > :last-child {
+      margin-top: 50px;
+      width: 60%;
+      margin-right: 100px;
+      /* padding-left: 30%; */
+      padding-top: 50px;
+      font-size: small;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .common-button {
+          line-height: 20px;
+          padding: 5px;
+          font-size: 3vw;
+       }
+    }
+  
+  .uk-container > :last-child {
+    margin-right: 800px;
+  }
+  
+  #section-container {
+    margin-top: 200px;
+    margin-right: 800px;
+    margin-bottom: 200px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  
+    animation: bounceInLeft;
+    animation-duration: 2s;
+  }
+  
+

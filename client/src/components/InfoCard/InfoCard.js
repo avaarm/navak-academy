@@ -1,6 +1,6 @@
 import React from "react";
 import CommonButton from "./CommonButton";
-import "./style.css";
+// import "./style.css";
 
 function InfoCard(props) {
   return (
