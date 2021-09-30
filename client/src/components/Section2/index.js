@@ -1,7 +1,7 @@
 import React from "react";
 import InfoCard from "../InfoCard/InfoCard";
 import style from "./style/section2.css"
-
+// need to remove
 function BlueBackground2(props) {
   return (
   
