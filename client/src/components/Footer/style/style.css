@@ -1,0 +1,15 @@
+
+.FooterSection{
+    /* Background color */
+    margin: 0px 0px 0px 0px;
+    /* border-bottom-left-radius: 50% 40%; */
+        /* Curved corners */
+    border-top-left-radius: 30% 20%;
+    background: #27AAE1;
+
+}
+
+.uk-container-xlarge {
+    max-width: 2500px;
+}
+
