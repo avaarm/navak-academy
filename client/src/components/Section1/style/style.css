@@ -1,3 +1,5 @@
+
+ /* uk-container-first wraps the background so that it encloses the entirescreen */
 .uk-container-first {
   /* Background color */
   margin: 0px 0px 0px 0px;
@@ -14,12 +16,13 @@
   background-size: 600px, 400px, 600px, 550px, 680px, 680px, 450px;
 }
 
-.uk-container-xlarge {
+/* the below styling does not seem necessary */
+/* .uk-container-xlarge {
   max-width: 2500px;
-}
+} */
 
-
-#section-container {
+/*changed the section-container id name to section1-container */
+#section1-container {
   margin-top: 200px;
   margin-right: 800px;
   margin-bottom: 200px;
@@ -32,7 +35,7 @@
   border-radius: 5px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 1000px) {
   .uk-container-first {
     /* Background color */
     margin: 0px 0px 0px 0px;
@@ -58,7 +61,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  #section-container {
+  #section1-container {
     margin-top: 50px;
     width: 60%;
     /* padding-left: 30%; */
@@ -67,7 +70,7 @@
 }
 
 @media only screen and (min-width: 540px) {
-  #section-container {
+  #section1-container {
     margin-top: 50px;
     width: 60%;
     /* padding-left: 30%; */
@@ -75,7 +78,7 @@
   }
 }
 @media only screen and (min-width: 300px) {
-  #section-container {
+  #section1-container {
     margin-top: 50px;
     width: 60%;
     /* padding-left: 30%; */

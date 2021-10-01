@@ -8,19 +8,19 @@ import BlueBackground2 from "../../components/Section2";
 // import BlueBackground5 from "../../components/Section5";
 // import Footer from "../../components/Footer"
 
-function MainPage(){
-    return (
-        <div>
-            {/* <Blobs/> */}
-            <NavBar/>
-            <BlueBackground1/>
-          <BlueBackground2/>
-          {/* <BlueBackground3/>
+function MainPage() {
+  return (
+    <div>
+      {/* <Blobs/> */}
+      <NavBar />
+      <BlueBackground1 />
+      <BlueBackground2 />
+      {/* <BlueBackground3/>
           <BlueBackground4/>
           <BlueBackground5/>
           <Footer/> */}
-        </div>
-    )
+    </div>
+  );
 }
 
 export default MainPage;
