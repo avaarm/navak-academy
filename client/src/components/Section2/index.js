@@ -18,5 +18,4 @@ function BlueBackground2(props) {
     </div>
   );
 }
-
 export default BlueBackground2;

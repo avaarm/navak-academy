@@ -1,19 +1,19 @@
-import React from "react";
-import InfoCard from "../InfoCard/InfoCard";
-import "./style/style.css"
+// import React from "react";
+// import InfoCard from "../InfoCard/InfoCard";
+// import "./style/style.css"
 
-function BlueBackground3(props) {
-  return (
+// function BlueBackground3(props) {
+//   return (
   
-      <div class="section3">
-        <InfoCard
-          title="Navak Academy"
-          description="“Navak” means “little boat” in Armenian. It signifies hope, a journey, and growth. Navak Academy aims to provide opportunites to populations who would otherwise not be able to obtain them. We hope to inspire the next generation of smart women to become involved in computers science and the tech industry."
-          buttonText="Learn more"
-        />
+//       <div class="section3">
+//         <InfoCard
+//           title="Navak Academy"
+//           description="“Navak” means “little boat” in Armenian. It signifies hope, a journey, and growth. Navak Academy aims to provide opportunites to populations who would otherwise not be able to obtain them. We hope to inspire the next generation of smart women to become involved in computers science and the tech industry."
+//           buttonText="Learn more"
+//         />
 
-    </div>
-  );
-}
+//     </div>
+//   );
+// }
 
-export default BlueBackground3;
+// export default BlueBackground3;
