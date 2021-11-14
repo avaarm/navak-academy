@@ -1,31 +1,25 @@
-
- /* uk-container-first wraps the background so that it encloses the entirescreen */
-.uk-container-first {
+/* uk-container-first wraps the background so that it encloses the entirescreen */
+#section1-wrapper {
   /* Background color */
   margin: 0px 0px 0px 0px;
+  padding-top: 100px;
+  padding-bottom: 50px;
   /* border-bottom-left-radius: 50% 40%; */
   /* Curved corners */
   border-bottom-right-radius: 30% 20%;
-  background: url(Ellipse-3-copy-7.png) left center no-repeat,
-    url(Vector-circle.png) left bottom no-repeat,
-    url(Vector-circle.png) left center no-repeat,
-    url(thisisengineering-unsplash.png) right bottom no-repeat,
-    url(Mask.png) right bottom no-repeat,
-    url(Rectangle.png) right bottom no-repeat,
-    url(Vector.png) right center no-repeat, #27aae1;
+  background: 
+    url(./images/Ellipse-3-copy-7.png) left center no-repeat,
+    url(./images/Vector-circle.png) left bottom no-repeat,
+    url(./images/Vector-circle.png) left center no-repeat,
+    url(./images/thisisengineering-unsplash.png) right bottom no-repeat,
+    url(./images/Mask.png) right bottom no-repeat,
+    url(./images/Rectangle.png) right bottom no-repeat,
+    url(./images/Vector.png) right center no-repeat, #27aae1;
   background-size: 600px, 400px, 600px, 550px, 680px, 680px, 450px;
 }
-
-/* the below styling does not seem necessary */
-/* .uk-container-xlarge {
-  max-width: 2500px;
-} */
-
-/*changed the section-container id name to section1-container */
-#section1-container {
-  margin-top: 200px;
-  margin-right: 800px;
-  margin-bottom: 200px;
+/*changed the section-container id name to sectionOne*/
+#sectionOne {
+  margin-right: 700px;
   padding-top: 30px;
   padding-bottom: 20px;
   animation: bounceInLeft;
@@ -35,78 +29,68 @@
   border-radius: 5px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
-@media only screen and (min-width: 1000px) {
-  .uk-container-first {
+/* max width says at this and below do this styling */
+@media only screen and (max-width: 1200px) {
+  #section1-wrapper {
     /* Background color */
     margin: 0px 0px 0px 0px;
     /* border-bottom-left-radius: 50% 40%; */
     /* Curved corners */
     border-bottom-right-radius: 30% 20%;
-    background: url(Ellipse-3-copy-7.png) left bottom no-repeat,
-      url(Ellipse-3-copy-7.png) left bottom no-repeat,
-      url(Vector-circle.png) left bottom no-repeat,
-      url(Mask.png) right bottom no-repeat,
-      url(Rectangle.png) right bottom no-repeat,
-      url(Vector.png) right center no-repeat, #27aae1;
+    background: 
+      url(./images/Ellipse-3-copy-7.png) left bottom no-repeat,
+      url(./images/Ellipse-3-copy-7.png) left bottom no-repeat,
+      url(./images/Vector-circle.png) left bottom no-repeat,
+      url(./images/Mask.png) right bottom no-repeat,
+      url(./images/Rectangle.png) right bottom no-repeat,
+      url(./images/Vector.png) right center no-repeat, #27aae1;
     background-size: 400px, 300px, 600px, auto, auto, auto;
   }
-}
-
-@media (max-width: 520px) {
-  body::before {
-    display: block;
-    margin: 1em;
-    font-weight: bold;
+  #sectionOne {
+    margin-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    animation: bounceInLeft;
+    animation-duration: 2s;
+    border-color: 1px solid rgb(61, 60, 60);
+    padding: 7%;
+    border-radius: 5px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
   }
 }
 
-@media only screen and (min-width: 768px) {
-  #section1-container {
-    margin-top: 50px;
+@media only screen and (max-width: 840px) {
+  #section1-wrapper {
+    /* Background color */
+    margin: 0px 0px 0px 0px;
+    /* border-bottom-left-radius: 50% 40%; */
+    /* Curved corners */
+    border-bottom-right-radius: 30% 20%;
+    background: 
+    url(./images/Ellipse-3-copy-7.png) left bottom no-repeat,
+      url(./images/Ellipse-3-copy-7.png) center no-repeat,
+      url(./images/Vector-circle.png)center no-repeat,
+ #27aae1;
+    background-size: 300px, 300px, 300px;
+  }
+  #sectionOne {
     width: 60%;
-    /* padding-left: 30%; */
+    padding: 20px 20px 20px 20px;
     padding-top: 50px;
   }
 }
-
-@media only screen and (min-width: 540px) {
-  #section1-container {
-    margin-top: 50px;
+@media only screen and (max-width: 300px) {
+  #sectionOne {
     width: 60%;
-    /* padding-left: 30%; */
-    padding-top: 50px;
-  }
-}
-@media only screen and (min-width: 300px) {
-  #section1-container {
-    margin-top: 50px;
-    width: 60%;
-    /* padding-left: 30%; */
+    padding-left: 30%;
     padding-top: 50px;
   }
   .uk-container > :last-child {
-    margin-top: 50px;
     width: 60%;
-    margin-right: 100px;
-    /* padding-left: 30%; */
+    /* margin-right: 100px; */
+    padding-left: 30%;
     padding-top: 50px;
     font-size: small;
   }
 }
-@media only screen and (min-width: 300px) {
-  .uk-container > :last-child {
-    margin-top: 50px;
-    width: 60%;
-    margin-right: 100px;
-    /* padding-left: 30%; */
-    padding-top: 50px;
-    font-size: small;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .common-button {
-    line-height: 20px;
-    padding: 5px;
-    font-size: 3vw;
-  }
-}
+

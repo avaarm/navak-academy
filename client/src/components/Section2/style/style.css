@@ -1,0 +1,82 @@
+/* uk-container-first wraps the background so that it encloses the entirescreen */
+#section2-wrapper {
+  /* Background color */
+  margin: 0px 0px 0px 0px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  /* border-bottom-left-radius: 50% 40%; */
+  /* Curved corners */
+  /* border-top-right-radius: 30% 10%; */
+  background: 
+    url(./images/About-Us-Circle.png) right bottom no-repeat,
+    url(./images/Ellipse-3-copy-7.png) left bottom no-repeat,
+    url(./images/Oval.png) left center no-repeat, white;
+  background-size: 400px, 500px, 200px;
+}
+
+
+/*changed the section-container id of each section*/
+#sectionTwo {
+  margin-left: 600px;
+  /* padding-top: 30px; */
+  padding-bottom: 20px;
+  animation: bounceInLeft;
+  animation-duration: 3s;
+  border-color: 1px solid rgb(61, 60, 60);
+  /* padding: 7%; */
+  border-radius: 5px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+/* max width says at this and below do this styling */
+@media only screen and (max-width: 1200px) {
+  #section2-wrapper {
+    /* Background color */
+    margin: 0px 0px 0px 0px;
+    /* border-bottom-left-radius: 50% 40%; */
+    /* Curved corners */
+    /* border-bottom-right-radius: 30% 20%; */
+    background: 
+      url(./images/About-Us-Circle.png) right center no-repeat,
+      url(./images/About-Us-Circle.png) right center no-repeat,
+      url(./images/Ellipse-3-copy-7.png) left bottom no-repeat,
+      url(./images/Oval.png) left center no-repeat, white;
+    background-size: 400px, auto, auto, auto;
+  }
+
+
+  #sectionTwo {
+    margin-left: 50px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    animation: bounceInLeft;
+    animation-duration: 2s;
+    border-color: 1px solid rgb(61, 60, 60);
+    padding: 7%;
+    border-radius: 5px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #sectionTwo {
+    width: 60%;
+    padding-left: 30%;
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #sectionTwo {
+    width: 60%;
+    padding-left: 30%;
+    padding-top: 50px;
+  }
+  .uk-container > :last-child {
+    width: 60%;
+    /* margin-right: 100px; */
+    padding-left: 30%;
+    padding-top: 50px;
+    font-size: small;
+  }
+}
+
+

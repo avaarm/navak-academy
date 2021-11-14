@@ -7,7 +7,7 @@ function InfoCard(props) {
     <div className={style.InfoCardGeneral}>
       <div className="uk-container">
         <div className="uk-text-center">
-          <div id="section1-container">
+          <div id="section-container">
             <p className="info-card-section">{props.section}</p>
             <h1>{props.title}</h1>
             <p className="description">{props.description}</p>
