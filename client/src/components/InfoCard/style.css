@@ -16,6 +16,12 @@
 
 
 /* Information Card */
+#section-container {
+
+block-size: unset;
+
+}
+
 .info-card-section {
   color: #6422db;
 }

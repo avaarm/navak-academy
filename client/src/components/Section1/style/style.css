@@ -25,6 +25,7 @@
   animation: bounceInLeft;
   animation-duration: 2s;
   border-color: 1px solid rgb(61, 60, 60);
+    /* makes sure the infoCard containers are same sized */
   padding: 7%;
   border-radius: 5px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -53,7 +54,7 @@
     animation: bounceInLeft;
     animation-duration: 2s;
     border-color: 1px solid rgb(61, 60, 60);
-    padding: 7%;
+    padding: 20%;
     border-radius: 5px;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
   }

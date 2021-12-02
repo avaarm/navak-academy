@@ -7,8 +7,8 @@ function SectionTwo(props) {
       <div className={style.section2} id="sectionTwo">
         <InfoCard
           title="Navak"
-          description="“Navak” means “little boat” in Armenian. It signifies hope, a journey, and growth. Navak Academy aims to provide opportunites to populations who would otherwise not be able to obtain them. We hope to inspire the next generation of smart women to become involved in computers science and the tech industry."
-
+          description="“Navak” means “little boat” in Armenian. It signifies hope, a journey, and growth. Navak Academy aims to provide opportunites to populations who would otherwise not be able to obtain them. We hope to inspire the next generation of smart women to become involved in computer science and the tech industry."
+         
         />
       </div>
     </div>
