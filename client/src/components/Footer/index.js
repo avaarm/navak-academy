@@ -1,31 +1,15 @@
-// import React from "react";
-// import "./style/style.css";
+import React from "react";
+import InfoCard from "../InfoCard/InfoCard";
+import style from "./style/style.css";
+function Footer(props) {
+  return (
+    <div id="footer-wrapper">
+      <div className={style.footer} id="sectionFooter">
+        <InfoCard
 
-// function Footer() {
-//   return (
-//     <div class="FooterSection">
-//       <div uk-container-first uk-container-xlarge container>
-//         <footer className="uk-text-center uk-text-middle footer">
-//           <hr className="uk-divider-icon uk-text-center "></hr>
-//           <span>
-//             <a className="contributor" href="# " target="blank"></a>
-//           </span>
-//           <div>
-//             <a className="view-repo uk-text-center" href="/">
-//               Navak Academy
-//               <span
-//                 uk-icon="icon: github"
-//                 className="contact-icon contact-link-icon"
-//                 target="_blank"
-//               >
-//                 {" "}
-//               </span>
-//             </a>
-//           </div>
-//         </footer>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Footer;
+        />
+      </div>
+    </div>
+  );
+}
+export default Footer;

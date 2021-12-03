@@ -6,8 +6,10 @@ function SectionFour(props) {
     <div id="section4-wrapper">
       <div className={style.section4} id="sectionFour">
         <InfoCard
-          title="Navak"
-          description="“Navak” means “little boat” in Armenian. It signifies hope, a journey, and growth. Navak Academy aims to provide opportunites to populations who would otherwise not be able to obtain them. We hope to inspire the next generation of smart women to become involved in computers science and the tech industry."
+          section="Join Us"
+          title="Join The Team"
+          buttonText="Learn More"
+
 
         />
       </div>
