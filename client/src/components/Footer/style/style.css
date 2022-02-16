@@ -13,7 +13,7 @@
 }
 /*changed the section-container id name to sectionFooter*/
 #sectionFooter {
-  margin-right: 700px;
+  /* margin-right: 700px; */
   padding-top: 30px;
   padding-bottom: 20px;
   animation: bounceInLeft;
@@ -36,7 +36,7 @@
      #27aae1;
   }
   #sectionFooter {
-    margin-right: 50px;
+    /* margin-right: 50px; */
     padding-top: 3px;
     padding-bottom: 2px;
     animation: bounceInLeft;
@@ -79,3 +79,21 @@
   }
 }
 
+
+.icons, .uk-divider-icon, .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.uk-icon-button-colors {
+  color: white;
+  background-color: ;
+}
+
+/* #update {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+} */

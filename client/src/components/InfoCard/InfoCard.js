@@ -11,7 +11,7 @@ function InfoCard(props) {
             <p className="info-card-section">{props.section}</p>
             <h1>{props.title}</h1>
             <p className="description">{props.description}</p>
-            <CommonButton title={props.buttonText} />
+            <a href={props.link} target="_blank"><CommonButton title={props.buttonText}/></a>
           </div>
         </div>
       </div>

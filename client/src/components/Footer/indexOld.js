@@ -28,3 +28,9 @@ function Footer() {
   );
 }
 export default Footer;
+
+//Notes
+  // had trouble using the direct syntax from the uikit website, had to use the portfolio syntax
+    // maybe a version issue 
+  // Contact form 
+    // https://www.freecodecamp.org/news/react-and-googlesheets/

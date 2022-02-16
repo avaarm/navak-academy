@@ -4,26 +4,25 @@
   margin: 0px 0px 0px 0px;
   padding-top: 100px;
   padding-bottom: 50px;
-  /* border-bottom-left-radius: 50% 40%; */
+  /* border-top-left-radius: 50% 40%; */
   /* Curved corners */
-  /* border-top-right-radius: 30% 10%; */
-  background: 
-    url(./images/About-Us-Circle.png) right bottom no-repeat,
-    url(./images/Ellipse-3-copy-7.png) left bottom no-repeat,
-    url(./images/Oval.png) left center no-repeat, white;
-  background-size: 400px, 500px, 200px;
+  /* border-bottom-right-radius: 30% 20%; */
+  background: url(./images/Group.png) right center no-repeat,
+  url(./images/About-Us-Circle.png)  right center no-repeat,
+ rgba(255, 255, 255, 0.746);
+ background-size: 600px, 300px;
 }
 
 
 /*changed the section-container id of each section*/
 #sectionFive {
-  margin-left: 600px;
-  /* padding-top: 30px; */
+  margin-right: 700px;
+  padding-top: 30px;
   padding-bottom: 20px;
   animation: bounceInLeft;
-  animation-duration: 3s;
+  animation-duration: 2s;
   border-color: 1px solid rgb(61, 60, 60);
-  /* padding: 7%; */
+  padding: 7%;
   border-radius: 5px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
@@ -35,17 +34,15 @@
     /* border-bottom-left-radius: 50% 40%; */
     /* Curved corners */
     /* border-bottom-right-radius: 30% 20%; */
-    background: 
-      url(./images/About-Us-Circle.png) right center no-repeat,
-      url(./images/About-Us-Circle.png) right center no-repeat,
-      url(./images/Ellipse-3-copy-7.png) left bottom no-repeat,
-      url(./images/Oval.png) left center no-repeat, white;
-    background-size: 400px, auto, auto, auto;
+    background: url(./images/Group.png) left top no-repeat,
+    url(./images/About-Us-Circle.png)  left top no-repeat,
+   rgba(255, 255, 255, 0.746);
+   background-size: 300px, 150px;
   }
 
 
   #sectionFive {
-    margin-left: 50px;
+    margin-right: 50px;
     padding-top: 3px;
     padding-bottom: 2px;
     animation: bounceInLeft;

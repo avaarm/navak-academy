@@ -2,11 +2,14 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./style.css";
-import { Link, img } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import AccountDropdown from "./AccountDropdown"
 import navak from "./navak.png";
 import Translation from "../TranslationButton";
 
+// need to use react scroll to scroll down to a particular component 
+// fill out an interest google form 
+// 
 
 
 const style = {
@@ -23,39 +26,39 @@ function Navbar(props) {
         style={style.navbar}
       >
        
-        <Link to="/" className="nav-item logo" style={{ color: props.color }}>
+        <Link to='/' className="nav-item logo" style={{ color: props.color }}>
           <img src={navak} width="100" height="100" alt=" logo"></img>
         </Link>
         <div className="uk-navbar-right">
-          <ul className="uk-navbar-nav uk-visible@m">
+          <ul className="uk-navbar-nav uk-visible@m uk-list-primary">
             {/* <li><Link to="/" className="nav-item" style={{ color: props.color }}>Home</Link></li> */}
             <li>
-              <Link to="/" className="nav-item" style={{ color: props.color }}>
+              <Link to='/Section1' className="nav-item" style={{ color: props.color }}>
                 Home{" "}
               </Link>
             </li>
             <li>
-              <Link to="/" className="nav-item" style={{ color: props.color }}>
+              <Link to="/Section2" className="nav-item" style={{ color: props.color }}>
                 About{" "}
               </Link>
             </li>
             <li>
-              <Link to="/" className="nav-item" style={{ color: props.color }}>
+              <Link to="/Section3" className="nav-item" style={{ color: props.color }}>
                 Vision
               </Link>
             </li>
             <li>
-              <Link to="/" className="nav-item" style={{ color: props.color }}>
+              <Link to="/Section5" className="nav-item" style={{ color: props.color }}>
                 Apply{" "}
               </Link>
             </li>
             <li>
-              <Link to="/" className="nav-item" style={{ color: props.color }}>
+              <Link to="/Section4" className="nav-item" style={{ color: props.color }}>
                 Join
               </Link>
             </li>
             <li>
-              <Link to="/" className="nav-item" style={{ color: props.color }}>
+              <Link to="/Footer" className="nav-item" style={{ color: props.color }}>
                 Contact
               </Link>
             </li> 

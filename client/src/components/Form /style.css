@@ -1,0 +1,17 @@
+.form{
+    width: 40px;
+  }
+  
+  .container{
+    padding:20px
+  }
+
+
+  /* .something {
+      display: flexbox;
+      height: 100px;
+      width: ;
+  } */
+  .ui.fluid.container {
+    width: 30%;
+}
