@@ -9,8 +9,6 @@ function SectionFour(props) {
           section="Join Us"
           title="Join The Team"
           buttonText="Learn More"
-
-
         />
       </div>
     </div>

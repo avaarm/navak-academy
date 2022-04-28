@@ -3,9 +3,7 @@ import InfoCard from "../InfoCard/InfoCard";
 import style from "./style/style.css";
 import ServiceCard from "../ServiceCard/ServiceCard";
 import image1 from "./style/images/Vector-Smart-Object.png";
-import image2 from "./style/images/Vector-Smart-Object-2.png"
-import image3 from "./style/images/Vector-Smart-Object-3.png"
-import image4 from "./style/images/Vector-Smart-Object-4.png"
+import image2 from ""
 
 
 function SectionThree() {
@@ -13,7 +11,7 @@ function SectionThree() {
     <div class="uk-child-width@1-2 uk-text-center" data-uk-grid>
       <div id="section3-wrapper" >  
         <div className={style.section3} id="sectionThree">
-            <div className="sectionFlex">
+            <div data-uk-grid>
             <InfoCard
               section="Our Vision"
               title="Education and Career Guidance for Minority Women"
@@ -27,21 +25,21 @@ function SectionThree() {
               button="Learn More"
             />
             <ServiceCard
-            image = {image2}
-            title = "Data Science "
+            image = {image1}
+            title = "Full Stack Web Development"
             description ="A three month immersive online course in full stack web development"
-            button="Coming Soon"
+            button="Learn More"
             />
             <ServiceCard
-            image = {image3}
-            title = "UX/UI Design"
-            description ="A three month immerive online course in UX/UI Design. "
-            button="Coming Soon"/>
+            image = {image1}
+            title = "Full Stack Web Development"
+            description ="A three month immersive online course in full stack web development"
+            button="Learn More"/>
             <ServiceCard
-            image = {image4}
-            title = "Introduction to Programming"
-            description ="A three week introduction to programming for those who are not yet ready to commit to three months of learning."
-            button="Coming Soon"/>
+            image = {image1}
+            title = "Full Stack Web Development"
+            description ="A three month immersive online course in full stack web development"
+            button="Learn More"/>
           </div>
         </div>
       </div>

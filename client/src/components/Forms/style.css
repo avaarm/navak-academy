@@ -1,9 +1,9 @@
 .form{
-    width: 40px;
+    width: 500px;
   }
   
   .container{
-    padding:20px
+    padding:0px
   }
 
 
@@ -15,3 +15,4 @@
   .ui.fluid.container {
     width: 30%;
 }
+

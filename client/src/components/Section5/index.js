@@ -1,11 +1,11 @@
 import React from "react";
 import InfoCard from "../InfoCard/InfoCard";
 import style from "./style/style.css";
-import Forms from "../Form "
+import Forms from "../Forms/index"
 function SectionFive(props) {
   return (
     <div id="section5-wrapper">
-          <Forms />
+          <Forms/>
       <div className={style.section5} id="sectionFive">
         <InfoCard
           section="Apply"
