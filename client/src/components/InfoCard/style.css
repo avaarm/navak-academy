@@ -1,3 +1,6 @@
+/* general styling */
+
+/* Button  */
 .common-button {
   background-color: #ffc727;
   color: #171718;
@@ -5,31 +8,18 @@
   border-radius: 100px 100px 100px 100px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
-
-.info-card uk-card uk-card-default uk-card-body {
-  margin: 0px !important;
-  padding: 0px !important;
-}
-.info-card {
-  margin: 0px !important;
-  animation: bounceInLeft;
-  animation-duration: 2s;
-}
-/* .uk-card-body{
-    margin: 0px;
-    animation: bounceInLeft ;
-    animation-duration: 2s;
-}  */
-#section-container {
-  border-color: 1px solid rgb(61, 60, 60);
-  padding: 7%;
-  border-radius: 5px;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
-
 .common-button:hover {
   background-color: #ffc727 !important;
-  color: #25234d;
+  color: #ffc727;
+}
+
+
+
+/* Information Card */
+#section-container {
+
+block-size: unset;
+
 }
 
 .info-card-section {
@@ -42,79 +32,4 @@ h1 {
 }
 p {
   color: #0b132a;
-}
-
-@media (max-width: 520px) {
-  body::before {
-    display: block;
-    margin: 1em;
-    font-weight: bold;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  #section-container {
-    margin-top: 50px;
-    width: 60%;
-    /* padding-left: 30%; */
-    padding-top: 50px;
-  }
- 
-}
-
-@media only screen and (min-width: 540px) {
-  #section-container {
-    margin-top: 50px;
-    width: 60%;
-    /* padding-left: 30%; */
-    padding-top: 50px;
-  }
-}
-@media only screen and (min-width: 300px) {
-  #section-container {
-    margin-top: 50px;
-    width: 60%;
-    /* padding-left: 30%; */
-    padding-top: 50px;
-  }
-  .uk-container > :last-child {
-    margin-top: 50px;
-    width: 60%;
-    margin-right: 100px;
-    /* padding-left: 30%; */
-    padding-top: 50px;
-    font-size: small;
-  }
-}
-@media only screen and (min-width: 300px) {
-  .uk-container > :last-child {
-    margin-top: 50px;
-    width: 60%;
-    margin-right: 100px;
-    /* padding-left: 30%; */
-    padding-top: 50px;
-    font-size: small;
-  }
-}
-@media only screen and (max-width: 500px) {
-    .common-button {
-        line-height: 20px;
-        padding: 5px;
-        font-size: 3vw;
-     }
-  }
-
-.uk-container > :last-child {
-  margin-right: 800px;
-}
-
-#section-container {
-  margin-top: 200px;
-  margin-right: 800px;
-  margin-bottom: 200px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-
-  animation: bounceInLeft;
-  animation-duration: 2s;
 }

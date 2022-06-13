@@ -2,16 +2,16 @@
 span {
   float: left !important;
   margin-top: 20px !important;
-  size: 20px;
+  /* size: 20px; */
 }
 .nav-item {
   font-weight: 100;
   color: black !important;
   font-family: Poppins !important;
   font-style: normal;
-  font-weight: 600;
+  /* font-weight: 600;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 30px; */
   text-transform: capitalize !important;
   padding-right: 10%;
   

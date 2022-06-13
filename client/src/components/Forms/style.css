@@ -1,0 +1,18 @@
+.form{
+    width: 500px;
+  }
+  
+  .container{
+    padding:0px
+  }
+
+
+  /* .something {
+      display: flexbox;
+      height: 100px;
+      width: ;
+  } */
+  .ui.fluid.container {
+    width: 30%;
+}
+

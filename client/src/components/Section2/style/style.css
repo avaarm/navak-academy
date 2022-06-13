@@ -1,42 +1,54 @@
 /* uk-container-first wraps the background so that it encloses the entirescreen */
-#footer-wrapper {
+#section2-wrapper {
   /* Background color */
   margin: 0px 0px 0px 0px;
   padding-top: 100px;
   padding-bottom: 50px;
-  /* border-bottom-left-radius: 50% 40%; */
+  border-bottom-left-radius: 50% 40%;
   /* Curved corners */
-  border-top-left-radius: 30% 20%;
+  /* border-top-right-radius: 30% 10%; */
   background: 
-   #27aae1;
+  url(./images/Oval.png)  center no-repeat,
+  url(./images/About-Us-Circle.png) left center no-repeat,
+  url(./images/Vector-circle.png) center no-repeat,
+  url(./images/Ellipse-3-copy-7.png) right top no-repeat,
+   white;
+  background-size: 200px, 700px,500px, 300px ;
+  
 
 }
-/*changed the section-container id name to sectionFooter*/
-#sectionFooter {
-  /* margin-right: 700px; */
-  padding-top: 30px;
+/*changed the section-container id of each section*/
+#sectionTwo {
+  margin-left: 600px;
+  padding-top: 100px;
   padding-bottom: 20px;
   animation: bounceInLeft;
-  animation-duration: 2s;
+  animation-duration: 3s;
   border-color: 1px solid rgb(61, 60, 60);
-    /* makes sure the infoCard containers are same sized */
+  /* makes sure the infoCard containers are same sized */
   padding: 7%;
   border-radius: 5px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 /* max width says at this and below do this styling */
 @media only screen and (max-width: 1200px) {
-  #footer-wrapper {
+  #section2-wrapper {
     /* Background color */
     margin: 0px 0px 0px 0px;
-    /* border-bottom-left-radius: 50% 40%; */
+    border-bottom-left-radius: 50% 40%;
     /* Curved corners */
-    border-top-left-radius: 30% 20%;
+    /* border-bottom-right-radius: 30% 20%; */
     background: 
-     #27aae1;
+    url(./images/Oval.png)  center no-repeat,
+    url(./images/About-Us-Circle.png) left center no-repeat,
+    url(./images/Vector-circle.png) center no-repeat,
+    url(./images/Ellipse-3-copy-7.png) right top no-repeat,
+     white;
+  background-size: 100px, 350px, 250px, 150px;
   }
-  #sectionFooter {
-    /* margin-right: 50px; */
+
+  #sectionTwo {
+    margin-left: 50px;
     padding-top: 3px;
     padding-bottom: 2px;
     animation: bounceInLeft;
@@ -48,24 +60,15 @@
   }
 }
 
-@media only screen and (max-width: 840px) {
-  #footer-wrapper {
-    /* Background color */
-    margin: 0px 0px 0px 0px;
-    /* border-bottom-left-radius: 50% 40%; */
-    /* Curved corners */
-    border-top-left-radius: 30% 20%;
-    background: 
-     #27aae1;
-  }
-  #sectionFooter {
+@media only screen and (max-width: 540px) {
+  #sectionTwo {
     width: 60%;
-    padding: 20px 20px 20px 20px;
+    padding-left: 30%;
     padding-top: 50px;
   }
 }
 @media only screen and (max-width: 300px) {
-  #sectionFooter {
+  #sectionTwo {
     width: 60%;
     padding-left: 30%;
     padding-top: 50px;
@@ -80,20 +83,3 @@
 }
 
 
-.icons, .uk-divider-icon, .contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.uk-icon-button-colors {
-  color: white;
-  background-color: ;
-}
-
-/* #update {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-} */

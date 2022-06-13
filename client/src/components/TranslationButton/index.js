@@ -14,7 +14,7 @@ function Translation(props) {
             <a href="#">English</a>
           </li>
           <li>
-            <a href="#">Armenian</a>
+            <a href="#">Armenian (Coming Soon)</a>
           </li>
         </ul>
       </div>

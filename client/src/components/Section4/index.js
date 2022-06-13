@@ -1,19 +1,17 @@
 import React from "react";
 import InfoCard from "../InfoCard/InfoCard";
-import "./style/style.css"
-
-function BlueBackground4(props) {
+import style from "./style/style.css";
+function SectionFour(props) {
   return (
-  
-      <div class="section4">
+    <div id="section4-wrapper">
+      <div className={style.section4} id="sectionFour">
         <InfoCard
-          title="Navak Academy"
-          description="“Navak” means “little boat” in Armenian. It signifies hope, a journey, and growth. Navak Academy aims to provide opportunites to populations who would otherwise not be able to obtain them. We hope to inspire the next generation of smart women to become involved in computers science and the tech industry."
-          buttonText="Learn more"
+          section="Join Us"
+          title="Join The Team"
+          buttonText="Learn More"
         />
-
+      </div>
     </div>
   );
 }
-
-export default BlueBackground4;
+export default SectionFour;

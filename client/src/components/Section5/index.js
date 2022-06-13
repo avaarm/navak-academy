@@ -1,19 +1,20 @@
 import React from "react";
 import InfoCard from "../InfoCard/InfoCard";
-import "./style/style.css"
-
-function BlueBackground5(props) {
+import style from "./style/style.css";
+import Forms from "../Forms/index"
+function SectionFive(props) {
   return (
-  
-      <div class="section5">
+    <div id="section5-wrapper">
+          <Forms/>
+      <div className={style.section5} id="sectionFive">
         <InfoCard
-          title="Navak Academy"
-          description="“Navak” means “little boat” in Armenian. It signifies hope, a journey, and growth. Navak Academy aims to provide opportunites to populations who would otherwise not be able to obtain them. We hope to inspire the next generation of smart women to become involved in computers science and the tech industry."
-          buttonText="Learn more"
+          section="Apply"
+          title="Applications Open For Summer 2022"
+          link="https://docs.google.com/forms/d/e/1FAIpQLSdbLI68AnrlOqYVPys03Jsd7Uo3osS3YShlaNAcZ6nSpwzPaA/viewform?usp=sf_link"
+          buttonText="Submit" 
         />
-
+      </div>
     </div>
   );
 }
-
-export default BlueBackground5;
+export default SectionFive;

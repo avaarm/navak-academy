@@ -22,10 +22,10 @@ function MobileNavbar() {
             <a href=" ">Home</a>
           </li> */}
           <li className="nav-item mobile-nav-item">
-            <a href=" ">About</a>
+            <a href="/">About</a>
           </li>
           <li className="nav-item mobile-nav-item">
-            <a href=" ">Vision</a>
+            <a href="/Section3">Vision</a>
           </li>
           <li className="nav-item mobile-nav-item">
             <a href=" ">Join</a>

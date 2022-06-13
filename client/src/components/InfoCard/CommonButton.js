@@ -3,7 +3,8 @@ import React from 'react';
 
 
 function CommonButton(props) {
-    return  <button className="common-button uk-button uk-button-primary"> {props.title} </button>
+    return <button className="common-button uk-button uk-button-primary"> {props.title} </button>
+
   }
 
 export default CommonButton;

@@ -13,7 +13,7 @@ Navak is a react application for the organization, Navak Academy, which is a pro
 * [Description](#description)
 * [Technologies](#technologies)
 * [Demonstration](#demonstration) - coming soon! :) 
-* [Team Members](#team)
+* [Contributors](#contributors)
 
 
 ## Technologies
@@ -47,7 +47,7 @@ Navak is a react application for the organization, Navak Academy, which is a pro
 ![Application Demo](./public/assets/video.gif) -->
 
 
-## Team Members
+## Contributors
 * Grant Smith
 * Julie Ritz
 * Jared Hennessy 
